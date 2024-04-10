@@ -18,6 +18,6 @@ namespace ak
 		{
 			return x_max;
 		}
-		return (uint16_t)((x - x_min) * (float)((2 << (bits - 1)) - 1) / (x_max - x_min));
+		return (uint16_t)((x - x_min) * (float)((1 << bits) - 1) / (x_max - x_min));
 	}
 }; // namespace ak
