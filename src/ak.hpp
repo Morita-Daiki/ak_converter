@@ -8,7 +8,8 @@
 
 #include <math.h>
 #include <stdlib.h>
-
+#include <cstring>
+#include <stdexcept>
 namespace ak
 {
 #ifdef AK60
