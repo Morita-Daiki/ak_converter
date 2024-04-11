@@ -14,7 +14,7 @@ make
 ## Usage
 
 ```bash
-./build/ak_pose 10.0
+./build/ak_pose 0.0
 0x7FFF
 
 ./build/ak_vel 10.0
